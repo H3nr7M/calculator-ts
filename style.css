@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(45deg, rgb(168, 125, 125), #fff);
+  background: linear-gradient(90deg, rgb(118, 118, 121), #414369);
 }
 
 .container {
@@ -22,28 +22,25 @@ body {
   position: relative;
   height: auto;
   width: auto;
-  padding: 20px;
+  padding: 2%;
   border-radius: 10px;
-  box-shadow: 0 0 30px rgb(52, 48, 110);
-  background-color: beige;
+  box-shadow: 0 0 30px rgb(2, 2, 4);
+  background-color: rgb(34, 78, 42);
 }
 .calculator #visor {
   position: relative;
-  color: rgb(39, 4, 7);
-  padding: 0px;
+  color: rgb(0, 0, 0);
+  padding: 3px;
   height: 50px;
-  align-items: flex-end;
-  justify-content: flex-end;
-  font-size: 30px;
   font-weight: 700;
-  width: auto;
 }
-.calculator #visor1 {
-  font-size: 30px;
-  font-weight: 700;
+input {
+  text-align: end;
+}
+
+.calculator #visorbg {
+  font-size: 2em;
   width: 18rem;
-  align-items: flex-end;
-  justify-content: flex-end;
 }
 .calculator button {
   background-color: #fff;
@@ -73,22 +70,15 @@ body {
   color: antiquewhite;
   height: 130px;
   border-radius: 30px;
+  margin-left: 10px;
 }
 .calculator.dark {
-  background-color: black;
+  background-color: rgb(27, 24, 24);
 }
 .calculator.dark #visor {
-  position: relative;
-  color: rgb(255, 255, 255);
-  padding: 0px;
   height: 50px;
-  align-items: flex-end;
-  justify-content: flex-end;
-  font-size: 30px;
-  font-weight: 700;
-  width: auto;
 }
-.calculator.dark #visor1 {
+.calculator.dark #visorbg {
   font-size: 30px;
   font-weight: 700;
   width: 18rem;
@@ -96,19 +86,12 @@ body {
   justify-content: flex-end;
 }
 .calculator.dark button {
-  background-color: rgb(29, 7, 7);
+  background-color: rgba(35, 30, 176, 0.367);
   color: rgb(255, 255, 255);
-  height: 60px;
-  width: 60px;
-  border: 0;
-  border-radius: 30px;
-  margin: 5px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 200ms ease;
 }
 .calculator.dark button:hover {
   transform: scale(1.1);
+  filter: brightness(1.4);
 }
 .calculator.dark .btn {
   background-color: rgb(100, 95, 89);
@@ -150,4 +133,3 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
-/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
-var visor = document.getElementById("visor1");
+var visor = document.getElementById("visorbg");
 var doble=document.getElementById("doble")
 
-let isDark =true;
+let isDark =false;
 
 
  function adicionar(tecla) {
