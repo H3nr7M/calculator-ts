@@ -1,5 +1,6 @@
-# Calculator using JavaScript
+# Calculator using TypeScript
 
-This is a simple calculator using JavaScript. It is a part of my learning process of JavaScript. I have used HTML and CSS to design the calculator. I have used JavaScript to make it functional. I have used the eval() function to evaluate the expression. 
+This is a simple calculator using TypeScript. In this project you'll learn how type elements in TypeScript, select DOM elements, among other things. Dont worry, the code is commented.
+## How to use
 
-Also the calculator have a Dark Mode. That is activated by clicking the Dark Mode button in the right corner of the calculator.
+open the index.html file in your browser.

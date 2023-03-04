@@ -109,8 +109,8 @@ input {
 }
 .calculator .theme-toggler {
   position: absolute;
-  top: 105px;
-  right: 53px;
+  top: 122px;
+  right: 70px;
   color: rgb(255, 255, 255);
   cursor: pointer;
   z-index: 1;
